@@ -1,3 +1,5 @@
+![eCredits Whitepaper Header](assets/eCredits_Header.jpg)
+
 # Nethereum.Faucet
 
 Simple faucet to fund Ethereum accounts
