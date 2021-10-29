@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  nethereum.faucet:
+    image: ecredits/faucet:latest
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - Faucet:AmountToFund=15
+      - Faucet:EthereumAddress=http://localhost:8545
+      - Faucet:FunderPrivateKey=4663c222787e30c1994b59044aa5045377a6e79193a8ead88293926b535c722d
+      - Faucet:MaxAmountToFund=1000
+      - Faucet:UrlTxnExplorer=http://localhost:4000/tx/
+    ports:
+      - 8001:80

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nethereum.faucet:
+    image: ${DOCKER_REGISTRY-}nethereumfaucet:latest
+    build:
+      context: .
+      dockerfile: Dockerfile

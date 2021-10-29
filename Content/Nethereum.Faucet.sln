@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nethereum.Faucet", "Nethereum.Faucet.csproj", "{4E86089A-9324-45AF-831D-8C0BE3CE7D15}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2A6A8DF8-8B5C-422C-B839-E622F6FBF14D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E86089A-9324-45AF-831D-8C0BE3CE7D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E86089A-9324-45AF-831D-8C0BE3CE7D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E86089A-9324-45AF-831D-8C0BE3CE7D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E86089A-9324-45AF-831D-8C0BE3CE7D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6A8DF8-8B5C-422C-B839-E622F6FBF14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6A8DF8-8B5C-422C-B839-E622F6FBF14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6A8DF8-8B5C-422C-B839-E622F6FBF14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6A8DF8-8B5C-422C-B839-E622F6FBF14D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {241A38BD-A8CD-4912-B913-DEE88DFF1EF4}
+	EndGlobalSection
+EndGlobal

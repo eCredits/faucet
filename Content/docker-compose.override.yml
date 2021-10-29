@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  nethereum.faucet:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Faucet:AmountToFund=25
+      - Faucet:EthereumAddress=http://host.docker.internal:7545
+      - Faucet:FunderPrivateKey=23b2090f6e1661cc498ee2a1b1a1e9f8c7bf2e8959e1c54866f496eb101cf937
+      - Faucet:MaxAmountToFund=1000
+      - Faucet:UrlTxnExplorer=http://BLOCKEXPLORER-ADDRESS/tx/
+    ports:
+      - 8001:80
